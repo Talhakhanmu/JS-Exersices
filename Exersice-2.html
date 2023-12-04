@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Exersice 2
+
+      //The even/odd reporter
+
+      function checkEvenOrOdd(number) {
+        if (number % 2 === 0) {
+          return "even";
+        } else {
+          return "odd";
+        }
+      }
+      console.log("The number is " + checkEvenOrOdd(3));
+
+      // for =loop
+      for (var i = 0; i <= 20; i++)
+        if (i % 2 === 0) {
+          console.log(i + "is even");
+        } else {
+          console.log(i + "is odd");
+        }
+      //Multiplication Tables
+      for (let i = 0; i <= 10; i++) {
+        let result = i * 9;
+        console.log(i + " * 9 = " + result);
+      }
+      // Bonus
+      for (let i = 1; i <= 10; i++) {
+        for (let j = 0; j <= 10; j++) {
+          let result = i * j;
+          console.log(i + " * " + j + " = " + result);
+        }
+      }
+
+      function assignGrade(score) {
+        if (score > 95) {
+          return "A+";
+        } else if (score > 85) {
+          return "A";
+        } else if (score > 75) {
+          return "B";
+        } else if (score > 35) {
+          return "D";
+        } else {
+          return "F";
+        }
+      }
+      for (var i = 100; i >= 80; i--) {
+        console.log("For " + i + ", you got a " + assignGrade(i));
+      }
+    </script>
+  </body>
+</html>

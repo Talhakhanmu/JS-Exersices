@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Exersice 1
+
+      // What number's bigger?
+
+      function greaterNum(num1, num2) {
+        if (num1 > num2) {
+          return num1;
+        } else {
+          return num2;
+        }
+      }
+      console.log(greaterNum(5, 10));
+
+      // The World Translator
+
+      function helloWorld(lang) {
+        if (lang === "fr") {
+          return "bonjour tout le mode";
+        } else if (lang === "de") {
+          return "Hallo Welt";
+        } else {
+          return "Hello World";
+        }
+      }
+      console.log(helloWorld("fr"));
+      console.log(helloWorld("de"));
+      console.log(helloWorld("en"));
+
+      // The Grade Assigner
+
+      function assignGrade(score) {
+        if (score > 95) {
+          return "A";
+        } else if (score > 75) {
+          return "B";
+        } else if (score > 55) {
+          return "C";
+        } else if (score > 35) {
+          return "D";
+        } else {
+          return "F";
+        }
+      }
+      console.log("You got a " + assignGrade(88));
+      console.log("You got a " + assignGrade(48));
+
+      // The Pluralizer
+      function pluralize(noun, number) {
+        if (number != 1 && noun != "church" && noun != "bus") {
+          return number + " " + noun + "s";
+        } else {
+          return number + " " + noun + "es";
+        }
+      }
+      console.log("I have " + pluralize("cat", 0));
+      console.log("I have " + pluralize("cat", 1));
+      console.log("I have " + pluralize("cat", 2));
+      console.log("I have " + pluralize("dog", 3));
+      console.log("I saw " + pluralize("church", 2));
+      console.log("I have " + pluralize("bus", 4));
+    </script>
+  </body>
+</html>
