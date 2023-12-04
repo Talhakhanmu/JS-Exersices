@@ -1,3 +1,3 @@
-# ich habe die Aufgaben von JAVA-Script Repitition gelöst.
+# ich habe die Aufgaben der JAVA-Script Repitition gelöst.
 
-# ich mache ein push nach jeder Exersice die ich mache.
+# Ich mache einen Push nach jeder Übung, die ich mache.
